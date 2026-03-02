@@ -169,6 +169,7 @@ These connect LangChain to actual LLM providers.
                                                               Output Parser
                                                                  ↓
                                                               Final Response
+                                                              
                                           
   With RAG:
                                           
