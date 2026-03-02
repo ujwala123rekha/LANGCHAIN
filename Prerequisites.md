@@ -18,6 +18,7 @@ LangChain does not create models.
 It orchestrates them.
 
 2️⃣ Why Use LangChain? (Advantages)
+    
 ✅ 1. Model Abstraction
 Switch between models (OpenAI, Ollama, Hugging Face) with minimal code change.
 
@@ -159,17 +160,17 @@ It mainly consists of:
 These connect LangChain to actual LLM providers.
 
 5️⃣ How LangChain Works Internally
-                                          User Input
-                                             ↓
-                                          Prompt Template
-                                             ↓
-                                          LLM (Model)
-                                             ↓
-                                          Output Parser
-                                             ↓
-                                          Final Response
+                                                              User Input
+                                                                 ↓
+                                                              Prompt Template
+                                                                 ↓
+                                                              LLM (Model)
+                                                                 ↓
+                                                              Output Parser
+                                                                 ↓
+                                                              Final Response
                                           
-                          With RAG:
+  With RAG:
                                           
                                           User Query
                                              ↓
